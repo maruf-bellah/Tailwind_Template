@@ -18,7 +18,7 @@ function LeftSidebar() {
       <label htmlFor='left-sidebar-drawer' className='drawer-overlay'></label>
       <ul className='menu  pt-2 w-60 bg-base-100 min-h-full   text-base-content'>
         <button
-          className='btn btn-ghost bg-base-300  btn-circle z-50 top-0 right-0 mt-4 mr-2 absolute lg:hidden'
+          className='btn  btn-ghost bg-base-300  btn-circle z-50 top-0 right-0 mt-4 mr-2 absolute lg:hidden'
           onClick={() => close()}>
           <XMarkIcon className='h-5 inline-block w-5' />
         </button>
@@ -30,7 +30,7 @@ function LeftSidebar() {
               src='/logo192.png'
               alt='DashWind Logo'
             />
-            DashWind
+            Personal Work
           </Link>{" "}
         </li>
         {routes.map((route, k) => {

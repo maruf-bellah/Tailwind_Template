@@ -44,8 +44,7 @@ function Login() {
             <img
               src='./login.png'
               alt='Dashwind Admin Template'
-              className='w-full h-full object-cover
-'></img>
+              className='w-full h-full object-cover'></img>
           </div>
           <div className='p-10'>
             <h2 className='text-2xl font-semibold mb-2 text-center'>Login</h2>

@@ -1,5 +1,3 @@
-import TemplatePointers from "./components/TemplatePointers";
-
 function LandingIntro() {
   return (
     <div className='hero  rounded-l-xl bg-base-200'>
